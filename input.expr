@@ -1,0 +1,15 @@
+
+SIZE : 2
+STATES
+s0 : 00
+s1 : 01
+s2 : 10
+s3 : 11
+
+INIT(s1)
+NEXT(s0) := s1
+NEXT(s1) := s2
+NEXT(s2) := s3
+NEXT(s3) := s3
+NEXT(s3) := s1
+
